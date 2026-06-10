@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '<h1> Hello this is a new feature update </h1> \n <h2>Python CI/CD Pipeline is working perfectly on my Mac!</h2>'
+    return '<h1> Hello this is a new feature update ok </h1> \n <h2>Python CI/CD Pipeline is working perfectly on my Mac!</h2>'
 
 if __name__ == '__main__':
     
